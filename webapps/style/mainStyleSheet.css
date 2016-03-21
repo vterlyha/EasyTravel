@@ -1,0 +1,191 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .UserButtons:hover {
+    background-color: 	darkblue;
+}
+
+.HomePageTextElements, .UserButtons {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+#TourDestinationsHeader {
+    margin-top: 70px;
+    text-align: center;
+}
+#SlideShowImages {
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 490px;
+}
+
+.UserButtons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 18px;
+}
+#LoginFrame, #LoginPageFrame, #DescriptionFrame {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 750px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: blue;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+#LoginPageFrame {
+    height: 350px;
+}
+#DescriptionFrame {
+    display: inline;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 20px;
+    height: 200px;
+    width: 870px;
+    border-width: 3px;
+}
+
+.UserLabels {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: darkblue;
+    font-weight: bold;
+}
+.UserInputs {
+    width: 340px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: darkblue;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    border-radius: 15px;
+    background-color: azure;
+}
+#EnterButton {
+    margin-top: 20px;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#SignUp {
+    text-decoration: underline;
+}
+.UserSelects, .RegUserSelects {
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: darkblue;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    border-radius: 15px;
+    background-color: azure;
+}
+.UserSelects {
+    position: absolute;
+}
+
+#ThailandFrame {
+    margin-left: 30px;
+    margin-top: 70px;
+    
+}
+.CountriesImages {
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 0px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+.CountriesHeaders {
+    font-family: sans-serif;
+    color: darkblue;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 650px;
+}
+.CountriesCitiesList {
+    display: inline;
+    margin-left: 15px;
+    list-style-type: none;
+    margin-top: 120px;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 10px;
+    width: 260px;
+}
+.CountriesListPoints, .HotelListPoints {
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+.TrackingLabels {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+th {
+    height: 50px;
+    background-color: #4CAF50;
+    color: white;
+}
