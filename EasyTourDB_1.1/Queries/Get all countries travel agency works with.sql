@@ -1,0 +1,1 @@
+select countries.name from countries
