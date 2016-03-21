@@ -1,9 +1,37 @@
+body {
+	margin:0;
+	background-image: url("images/background.jpg");
+}
+
+p.slogan { 
+	text-align: center;
+	font-size: 26px;
+	font-family: "segoe print";
+}
+
+.logo {
+	position: relative;
+	height : 8%;
+	width : 8%;
+	display: block;
+    left: 320px;
+
+}
+
+.welcome-image {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+	width: 60%;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: blue;
+	background-color: blue;
     position: fixed;
     top: 0;
     width: 100%;
@@ -12,6 +40,11 @@ ul {
 li {
     float: left;
 }
+
+li#AvatarAndLogin {
+    float: right;
+}
+
 
 li a {
     font-family: sans-serif;
@@ -177,6 +210,7 @@ table {
     border-collapse: collapse;
     margin-left:auto; 
     margin-right:auto;
+    
 }
 
 table, th, td {
@@ -186,6 +220,6 @@ table, th, td {
 
 th {
     height: 50px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #FFDEAD;
+    
 }
